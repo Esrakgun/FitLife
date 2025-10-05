@@ -1,11 +1,11 @@
 
-#💪 FitLife 🧘‍♀️:
+ 💪 FitLife 🧘‍♀️:
 Bu proje, kullanıcı dostu bir gezinme deneyimi sunmayı amaçlayan modern ve etkileşimli bir web sayfasıdır.  
 HTML, CSS ve JavaScript ile geliştirilmiş; responsive yapısı ve sade tasarımıyla dikkat çeker.
 
 ---
 
-# 🚀 Proje Özeti:
+🚀 Proje Özeti:
 Bu proje, sade ama etkileyici bir kişisel web sitesi oluşturmak amacıyla geliştirilmiştir.
 HTML, CSS ve JavaScript’in bir araya gelmesiyle; kullanıcıya akıcı, modern ve etkileşimli bir deneyim sunar.
 Navigasyon menüsü dinamik olarak açılıp kapanır, sayfa kaydırıldığında üst menü (header) ve “back-to-top” düğmesi aktif hale gelir.
@@ -13,7 +13,7 @@ Tüm bu detaylar, kullanıcı dostu ve zarif bir arayüz deneyimi oluşturmak i�
 
 ---
 
-#✨ Proje Özellikleri:
+✨ Proje Özellikleri:
 📱 Mobil Uyumluluk: Farklı ekran boyutlarında optimize görünüm ve dinamik **navbar menüsü**
 🍔 Dinamik Navbar: Menü simgesine tıklanarak açılıp kapanan kullanıcı dostu navigasyon.
 🔝 Back to Top Butonu: Sayfa kaydırıldığında otomatik aktif hale gelir. Kaydırma sonrası aktifleşen **header** ve **back-to-top** butonu
@@ -22,7 +22,7 @@ Tüm bu detaylar, kullanıcı dostu ve zarif bir arayüz deneyimi oluşturmak i�
 
 ---
 
-#💻Kullanılan Teknolojiler⚙️:
+💻Kullanılan Teknolojiler⚙️:
 
 - **HTML5** – Yapısal iskelet
 - **CSS3** – Görsel tasarım, responsive yapı ve animasyon efektleri
@@ -32,7 +32,7 @@ Tüm bu detaylar, kullanıcı dostu ve zarif bir arayüz deneyimi oluşturmak i�
 
 ---
 
-#🔄Proje Akışı📲:
+🔄Proje Akışı📲:
 
 1.Ana Sayfa:Kullanıcı, modern bir giriş ekranı ve sade bir menüyle karşılanır.
 Menü simgesine tıklayarak navigasyonu açabilir veya kapatabilir.
@@ -44,7 +44,7 @@ Böylece kullanıcı, her an yukarı dönme seçeneğine sahiptir.
 
 ----
 
-#👥 Kime Hitap Ediyor?:
+👥 Kime Hitap Ediyor?:
 
 - Portfolyo hazırlamak isteyen tasarımcılar ve geliştiriciler  
 - Minimalist tasarımları tercih eden kullanıcılar  
@@ -53,7 +53,7 @@ Böylece kullanıcı, her an yukarı dönme seçeneğine sahiptir.
 
 ---
 
-# 🚀 Nasıl Kullanılır:
+🚀 Nasıl Kullanılır:
 
 1. Dosyaları bilgisayarınıza indirin.  
 2. `index.html` dosyasını tarayıcıda açın.  
@@ -62,7 +62,7 @@ Böylece kullanıcı, her an yukarı dönme seçeneğine sahiptir.
 
 ---
 
-# 💡 Geliştirme Fikirleri:
+💡 Geliştirme Fikirleri:
 
 🌗 Karanlık / Aydınlık Tema Geçişi (Dark-Light Mode)
 
@@ -82,9 +82,9 @@ Böylece kullanıcı, her an yukarı dönme seçeneğine sahiptir.
 
 ---
 
-#💬 İletişim Proje hakkında sorularınız varsa, lütfen benimle iletişime geçin: E-posta: akgundogduesr@gmail.com 
+💬 İletişim Proje hakkında sorularınız varsa, lütfen benimle iletişime geçin: E-posta: akgundogduesr@gmail.com 
 
-#🖼️ Proje Ekran Görüntüleri:
+🖼️ Proje Ekran Görüntüleri:
 
 
 
