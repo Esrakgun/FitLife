@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+    <title>Fitlife – Sağlam Bir Hayat, Güçlü Bir Sen!</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Fitlife ile daha sağlıklı, güçlü ve dengeli bir yaşam için çalış. Sağlam bir hayat, güçlü bir sen!" />
+    <meta name="keywords"
+        content="fitlife, fitness, spor, sağlıklı yaşam, motivasyon, egzersiz" />
+    <meta name="author" content="Fitlife Team" />
+
+    <!-- Google Fonts (Updated link for better performance) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+        rel="stylesheet" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./assets/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/hero-circle-one.png" />
+    <link rel="preload" as="image" href="./assets/hero-circle-two.png" />
+    <link rel="preload" as="image" href="./assets/heart-rate.svg" />
+    <link rel="preload" as="image" href="./assets/calories.svg" />
+
+    <!-- Ionicons (latest CDN - 7.4.0) -->
+    <script type="module"
+        src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule
+        src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body id="top">
+    <!-- #Header -->
+    <!-- 🏋️‍♀️ Fitlife Content Area -->
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <ion-icon name="barbell-sharp"
+                    aria-hidden="true">
+                </ion-icon>
+                <span class="span">Fitlife</span>
+            </a>
+
+            <navbar class="navbar" data-navbar>
+                <button class="nav-close-btn" aria-label="close menu"
+                    data-nav-toggler>
+                    <ion-icon name="close-sharp"
+                        aria-hidden="true">
+                    </ion-icon>
+                </button>
+
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#home" class="navbar-link active" data-nav-link>Anasayfa</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="navbar-link" data-nav-link>Hakkımızda</a>
+                    </li>
+
+                    <li>
+                        <a href="#class" class="navbar-link" data-nav-link>Antrenmanlar</a>
+                    </li>
+
+                    <li>
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#contactus" class="navbar-link" data-nav-link>İletişim</a>
+                    </li>
+
+                </ul>
+            </navbar>
+
+            <a href="#" class="btn btn-secondary">Hemen Katıl</a>
+            <button 
+                class="nav-open-btn" 
+                aria-label="open menu"
+                data-nav-toggler>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <!-- #HERO -->
+            <section 
+                class="section hero bg-dark has-after has-bg-image"
+                id="home" 
+                aria-label="hero" 
+                data-section
+                style="background-image: url('./assets/hero-bg.png')">
+
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle">
+                            <strong class="strong">Sporun ve
+                            </strong>Sağlığın Adresi
+                        </p>
+
+                        <h1 class="h1 hero-title">
+                            Daha Sağlıklı Bir Hayat İçin Çalış!
+                        </h1>
+
+                        <p class="section-text">
+                            Vücudunu güçlendir, enerjini artır ve
+                            hedeflerine ulaş! Sağlam
+                            bir hayat, disiplinli bir çabayla başlar.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Hemen Başla</a>
+                    </div>
+
+                    <div class="hero-banner">
+                        <img 
+                             src="./assets/hero-banner.png" 
+                            width="660"
+                            height="753" 
+                            alt="hero banner" 
+                            class="w-100" />
+
+                        <img 
+                            src="./assets/hero-circle-one.png" 
+                            width="666"
+                            height="666" 
+                            aria-hidden="true" 
+                            alt="hero-b"
+                            class="circle circle-1" />
+                        <img 
+                            src="./assets/hero-circle-two.png" 
+                            width="666"
+                            height="666" 
+                            aria-hidden="true" 
+                            alt="hero-b"
+                            class="circle circle-2" />
+
+                        <img
+                            src="./assets/heart-rate.svg" 
+                            width="255"
+                            height="270" 
+                            alt="heart rate"
+                            class="abs-img abs-img-1" />
+
+                        <img 
+                            src="./assets/calories.svg"
+                            width="348"
+                            height="224" 
+                            alt="calories"
+                            class="abs-img abs-img-2" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- #ABOUT -->
+            <section 
+                  class="section about" 
+                  id="about" 
+                  aria-label="about">
+                <div class="container">
+                    <div class="about-banner has-after">
+                        <img 
+                            src="./assets/about-banner.png" 
+                            width="660"
+                            height="648" 
+                            loading="lazy" 
+                            alt="about banner"
+                            class="w-100" />
+
+                        <img 
+                            src="./assets/about-circle-one.png"
+                            width="660" 
+                            height="534" 
+                            loading="lazy"
+                            alt="about banner" 
+                            class="circle circle-1" />
+
+                        <img 
+                            src="./assets/about-circle-two.png"
+                            width="660" 
+                            height="534" 
+                            loading="lazy"
+                            alt="about banner" 
+                            class="circle circle-2" />
+
+                        <img 
+                            src="./assets/fitness.png" 
+                            width="650"
+                            height="154" 
+                            loading="lazy" 
+                            alt="fitness"
+                            class="abs-mg w-100" />
+                    </div>
+
+                    <div class="about-content">
+                        <p class="section-subtitle">Hakkımızda?</p>
+
+                        <h2 class="h2 section-title">
+                            Fitness Salonumuza Hoş Geldiniz.
+                        </h2>
+
+                        <p class="section-text">
+                            Kendinizi güçlendirmek ve sağlıklı bir yaşama
+                            adım atmak için doğru yerdesiniz.
+                            Vücudunuzu şekillendirmek, enerjinizi artırmak
+                            ve hedeflerinize ulaşmak artık çok kolay.
+                        </p>
+
+                        <p class="section-text">
+                            Profesyonel ekipmanlarımız ve deneyimli
+                            eğitmenlerimizle, antrenmanlarınızı verimli ve
+                            keyifli hale getiriyoruz.
+                            Fitlife ile sağlıklı bir hayat, disiplin ve
+                            motivasyonla başlar.
+                        </p>
+
+
+
+                        <div class="wrapper">
+                            <div class="about-coach">
+                                <figure class="coach-avatar">
+                                    <img 
+                                        src="./assets/about-coach.jpg"
+                                        width="65" 
+                                        height="65"
+                                        loading="lazy" 
+                                        alt="Eğitmen" />
+                                </figure>
+
+                                <div>
+                                    <h3 class="h3 coach-name">
+                                        Deniz Yücesoy
+                                    </h3>
+
+                                    <p class="coach-title">Eğitmenimiz</p>
+                                </div>
+                            </div>
+
+                            <a href="#" class="btn btn-primary">
+                                Detayları Gör
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- #VIDEO-->
+
+            <section 
+                class="section video" 
+                aria-label="video">
+                <div class="container">
+                    <div class="video-card has-before has-bg-image"
+                        style="background-image: url('./assets/video-banner.jpg')">
+
+                        <h2 class="h2 card-title">
+                            Fitness Yaşamını Keşfet
+                        </h2>
+
+                        <button 
+                            class="play-btn"
+                            aria-label="videoyu oynat">
+                            <ion-icon name="play-sharp"
+                                aria-hidden="true">
+                            </ion-icon>
+                        </button>
+
+                        <a href="#" class="btn-link has-before">
+                            Daha Fazlasını İzle
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section 
+                class="section class bg-dark has-bg-image" 
+                id="class"
+                aria-label="class"
+                style="background-image: url('./assets/classes-bg.png')">
+                <div class="container">
+                    <p class="section-subtitle">Derslerimiz</p>
+
+                    <h2 class="h2 section-title text-center">
+                        Her Hedefe Uygun Fitness Dersleri
+                    </h2>
+
+                    <ul class="class-list has-scrollbar">
+                        <li class="scrollbar-item">
+                            <div class="class-card">
+                                <figure 
+                                    class="card-banner img-holder"
+                                    style="--width: 416; --height: 240">
+                                    <img 
+                                        src="./assets/class-1.jpg"
+                                        width="416" 
+                                        height="240"
+                                        loading="lazy"
+                                        alt="Ağırlık Çalışması"
+                                        class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="title-wrapper">
+                                        <img 
+                                            src="./assets/class-icon-1.png"
+                                            width="52"
+                                            height="52"
+                                            aria-hidden="true" 
+                                            alt="img-i"
+                                            class="title-icon" />
+
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">
+                                                Ağırlık Çalışması
+                                            </a>
+                                        </h3>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Serbest hareketlerle güçlenin,
+                                        antrenmanları verimli ve keyifli
+                                        yapın.
+                                    </p>
+
+                                    <div class="card-progress">
+                                        <div class="progress-wrapper">
+                                            <p class="progress-label">
+                                                Ders Dolu
+                                            </p>
+
+                                            <span
+                                                class="progress-value">85%</span>
+                                        </div>
+
+                                        <div class="progress-bg">
+                                            <div class="progress-bar"
+                                                style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="class-card">
+                                <figure 
+                                    class="card-banner img-holder"
+                                    style="--width: 416; --height: 240">
+                                    <img 
+                                        src="./assets/class-2.jpg"
+                                        width="416" 
+                                        height="240"
+                                        loading="lazy" 
+                                        alt="Kardiyo & Güç"
+                                        class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="title-wrapper">
+                                        <img 
+                                            src="./assets/class-icon-2.png"
+                                            width="52" 
+                                            height="52"
+                                            aria-hidden="true" 
+                                            alt="title-i"
+                                            class="title-icon" />
+
+                                        <h3 class="h3">
+                                            <a href="#"
+                                                class="card-title">Kardiyo
+                                                & Güç
+                                            </a>
+                                        </h3>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Dayanıklılık ve güç artışı için
+                                        özel antrenmanlar.
+                                    </p>
+
+                                    <div class="card-progress">
+                                        <div class="progress-wrapper">
+                                            <p class="progress-label">Ders
+                                                Dolu
+
+                                            </p>
+                                            <span
+                                                class="progress-value">70%</span>
+                                        </div>
+
+                                        <div class="progress-bg">
+                                            <div class="progress-bar"
+                                                style="width: 70%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="class-card">
+                                <figure 
+                                    class="card-banner img-holder"
+                                    style="--width: 416; --height: 240">
+                                    <img 
+                                        src="./assets/class-3.jpg"
+                                        width="416" 
+                                        height="240"
+                                        loading="lazy"
+                                        alt="Power Yoga"
+                                        class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="title-wrapper">
+                                        <img 
+                                            src="./assets/class-icon-3.png"
+                                            width="52"
+                                            height="52"
+                                            aria-hidden="true" 
+                                            alt="title-i"
+                                            class="title-icon" />
+
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">
+                                                Power Yoga
+                                            </a>
+                                        </h3>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Esnekliği artırın ve zihinsel
+                                        odaklanmayı geliştirin.
+                                    </p>
+
+                                    <div class="card-progress">
+                                        <div class="progress-wrapper">
+                                            <p class="progress-label">
+                                                Ders Dolu
+                                            </p>
+
+                                            <span
+                                                class="progress-value">90%</span>
+                                        </div>
+
+                                        <div class="progress-bg">
+                                            <div class="progress-bar"
+                                                style="width: 90%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="class-card">
+                                <figure 
+                                    class="card-banner img-holder"
+                                    style="--width: 416; --height: 240">
+                                    <img 
+                                        src="./assets/class-4.jpg"
+                                        width="416" 
+                                        height="240"
+                                        loading="lazy"
+                                        alt="Fitness Paketi"
+                                        class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="title-wrapper">
+                                        <img 
+                                            src="./assets/class-icon-4.png"
+                                            width="52" 
+                                            height="52"
+                                            aria-hidden="true" 
+                                            alt="title-i"
+                                            class="title-icon" />
+
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title">
+                                                Fitness Paketi
+                                            </a>
+                                        </h3>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Tüm vücut çalışmaları ve hedef
+                                        odaklı antrenmanlar.
+                                    </p>
+
+                                    <div class="card-progress">
+                                        <div class="progress-wrapper">
+                                            <p class="progress-label">
+                                                Ders Dolu
+                                            </p>
+                                            <span
+                                                class="progress-value">60%</span>
+                                        </div>
+
+                                        <div class="progress-bg">
+                                            <div class="progress-bar"
+                                                style="width: 60%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- #BLOG -->
+            <section 
+                class="section blog" 
+                id="blog" 
+                aria-label="blog">
+                <div class="container">
+                    <p class="section-subtitle">Haberlerimiz</p>
+                    <h2 class="h2 section-title text-center">Son Blog
+                        Yazıları</h2>
+
+                    <ul class="blog-list has-scrollbar">
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+                                <div class="card-banner img-holder"
+                                    style="--width: 440; --height: 270">
+                                    <img 
+                                        src="./assets/blog-1.jpg"
+                                        width="440" 
+                                        height="270"
+                                        loading="lazy"
+                                        alt="İlk kez spor salonuna gitmek"
+                                        class="img-cover" />
+
+                                    <time class="card-meta" datetime="2025-05-05">
+                                        5 Mayıs 2025
+                                    </time>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">İlk
+                                            kez spor salonuna gitmek
+                                        </a>
+                                    </h3>
+                                    <p class="card-text">
+                                        Spor salonuna adım atarken nelere
+                                        dikkat etmeli ve başlangıç
+                                        ipuçları.
+                                    </p>
+                                    <a href="#"
+                                        class="btn-link has-before">
+                                        Devamını Oku
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+                                <div class="card-banner img-holder"
+                                    style="--width: 440; --height: 270">
+                                    <img 
+                                        src="./assets/blog-2.jpg"
+                                        width="440" 
+                                        height="270"
+                                        loading="lazy"
+                                        alt="Kas gelişimi için ipuçları"
+                                        class="img-cover" />
+                                    <time class="card-meta" datetime="2025-07-07">
+                                        7 Temmuz 2025
+                                    </time>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">
+                                            Kas gelişimi için ipuçları
+                                        </a>
+                                    </h3>
+                                    <p class="card-text">
+                                        Kas yaparken doğru yöntemler ve beslenme önerileri.
+                                    </p>
+                                    <a href="#"
+                                        class="btn-link has-before">
+                                        Devamını Oku
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+                                <div class="card-banner img-holder"
+                                    style="--width: 440; --height: 270">
+                                    <img 
+                                        src="./assets/blog-3.jpg"
+                                        width="440" 
+                                        height="270"
+                                        loading="lazy"
+                                        alt="Fitness ipuçları ve motivasyon"
+                                        class="img-cover" />
+                                    <time class="card-meta" datetime="2025-08-23">
+                                        23 Agustos 2025
+                                    </time>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#"
+                                            class="card-title">
+                                            Fitness ipuçları ve motivasyon
+                                        </a>
+                                    </h3>
+                                    <p class="card-text">
+                                        Spor hedeflerine ulaşmak için
+                                        etkili yöntemler ve motivasyon
+                                        tüyoları.
+                                    </p>
+                                    <a href="#"
+                                        class="btn-link has-before">
+                                        Devamını Oku
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- #FOOTER -->
+           <footer class="footer" id="contactus">
+                <div class="section footer-top bg-dark has-bg-image"
+                    style="background-image: url('./assets/footer-bg.png')">
+                    <div class="container">
+                        <div class="footer-brand">
+                            <a href="#" class="logo">
+                                <ion-icon name="barbell-sharp"
+                                    aria-hidden="true">
+                                </ion-icon>
+                                <span class="span">
+                                    Fitlife
+                                </span>
+                            </a>
+
+
+                            <p class="footer-brand-text">
+                                Profesyonel ekipman ve deneyimli
+                                eğitmenlerle sağlıklı bir yaşam.
+                            </p>
+
+                            <div class="wrapper">
+                                <img 
+                                    src="./assets/footer-clock.png"
+                                    width="34" 
+                                    height="34" 
+                                    loading="lazy"
+                                    alt="Saat" />
+
+                                <ul class="footer-brand-list">
+                                    <li>
+                                        <p class="footer-brand-title">
+                                            Pazartesi - Cuma</p>
+                                        <p>07:00 - 22.00</p>
+                                    </li>
+
+                                    <li>
+                                        <p class="footer-brand-title">
+                                            Cumartesi - Pazar</p>
+                                        <p>07:00 - 22:00</p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title has-before">
+                                    Linklerimiz
+                                </p>
+                            </li>
+
+                            <li>
+                                <a href="#home" class="footer-link">
+                                    Anasayfa
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about" class="footer-link">
+                                    Hakkımızda
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#class" class="footer-link">
+                                    Sınıflar
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#blog" class="footer-link">
+                                    Blog
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contactus" class="footer-link">
+                                    İletişim
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title has-before">
+                                    İletişim
+                                </p>
+                            </li>
+
+                            <li class="footer-list-item">
+                                <div class="icon">
+                                    <ion-icon name="location"
+                                        aria-hidden="true">
+                                    </ion-icon>
+                                </div>
+
+                                <address class="address footer-link">
+                                    Türkiye, İstanbul, Beşiktaş, Barbaros
+                                    Mahallesi, Örnek Sokak No:12
+                                </address>
+                            </li>
+
+
+                            <li class="footer-list-item">
+                                <div class="icon">
+                                    <ion-icon name="call"
+                                        aria-hidden="true">
+                                    </ion-icon>
+                                </div>
+                                <div>
+                                    <a href="tel:+905555555555"
+                                        class="footer-link">+90 555 555 55
+                                        55</a>
+                                    <a href="tel:+905555555556"
+                                        class="footer-link">+90 555 555 55
+                                        56</a>
+                                    </div>
+                                </li>
+
+
+                            <li class="footer-list-item">
+                                <div class="icon">
+                                    <ion-icon name="mail"
+                                        aria-hidden="true">
+                                    </ion-icon>
+                                </div>
+                                <div>
+                                    <a href="mailto:info@fitlife.com"
+                                        class="footer-link">info@fitlife.com
+                                    </a>
+                                    <a href="mailto:services@fitlife.com"
+                                        class="footer-link">services@fitlife.com
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title has-before">
+                                    Bültenimize Abone Ol
+                                </p>
+                            </li>
+
+                            <li>
+                                <form action="" class="footer-form">
+                                    <input 
+                                        type="email"
+                                        name="email_address"
+                                        aria-label="email"
+                                        placeholder="E-posta Adresiniz"
+                                        required class="input-field" />
+                                    <button 
+                                        type="submit"
+                                        class="btn btn-primary"
+                                        aria-label="Gönder">
+                                        <ion-icon
+                                            name="chevron-forward-sharp"
+                                            aria-hidden="true">
+                                        </ion-icon>
+                                    </button>
+                                </form>
+                            </li>
+
+                            <li>
+                                <ul class="social-list">
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon
+                                                name="logo-instagram"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="container"
+                        style="display: flex; flex-direction: column; gap: 15px;">
+                        <!-- Düz yazı -->
+                        <p class="copyright"
+                            style="text-align: center; margin: 0;">
+                            &copy;
+                            2025 Fitlife.Tüm hakları saklıdır.
+                            Bu proje
+                            <b  style="cursor:pointer; color:inherit;"
+                                onmouseover="this.style.color='hsl(12, 98%, 52%)';"
+                                onmouseout="this.style.color='inherit';">
+                                Esra Akgündoğdu
+                            </b>
+                            tarafından hazırlanmıştır.
+                        </p>
+
+                        <!-- Linkler -->
+                        <ul class="footer-bottom-list"
+                            style="display: flex; justify-content: space-between; padding: 0; margin: 0; list-style: none;">
+                            <li>
+                                <a href="#"
+                                    class="footer-bottom-link has-before">
+                                    Gizlilik Politikası
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="footer-bottom-link has-before">
+                                    Şartlar & Koşullar
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </footer>
+
+            <!-- #BACK TO TOP-->
+
+            <a href="#top" class="back-top-btn" aria-label="back to top"
+                data-back-top-btn>
+                <ion-icon name="caret-up-sharp" aria-hidden="true">
+                </ion-icon>
+            </a>
+
+
+            <!--  custom js link-->
+            <script src="./js/script.js" defer></script>
+
+            <!--- ionicon link-->
+            <script type="module"
+                src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+                </script>
+
+            <script nomodule
+                src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+                </script>
+</body>
+
+</html>
